@@ -12,26 +12,33 @@
     font-weight: 700;
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 40px;
+    padding: 15px 30px;
     border: none;
 }
 
 /* banner section */
 .banner {
     display: flex;
-    height: 100vh;
     align-items: center;
+    gap: 100px;
+    padding: 50px 200px 0;
+    background-color: rgba(229, 84, 115, 0.10);
+    ;
 }
 
 .banner-text-title {
     color: #272727;
-    font-size: 80px;
-    font-weight: 700;
+    font-size: 52px;
+    font-weight: 900;
 }
 
 .banner-text-description {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 25px;
+    margin: 25px 0;
+}
+.banner-img {
+    width: 420px;
 }
