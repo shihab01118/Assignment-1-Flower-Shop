@@ -30,6 +30,10 @@
     margin: 20px 0 40px;
 }
 
+.primary {
+    color: #E55473;
+}
+
 /* banner section */
 .banner {
     display: flex;
@@ -139,4 +143,22 @@
     font-size: 16px;
     font-weight: 400;
     margin-top: 15px;
+}
+
+/* offer section */
+.offer-container {
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 60px 225px;
+    margin-bottom: 100px;
+}
+.offer-left {
+    max-width: 500px;
+    text-align: center;
+}
+.offer-img {
+    width: 250px;
 }
