@@ -20,6 +20,7 @@
     color: #272727;
     font-size: 35px;
     font-weight: 900;
+    text-align: center;
 }
 
 .section-text {
@@ -28,6 +29,7 @@
     font-weight: 400;
     line-height: 25px;
     margin: 20px 0 40px;
+    text-align: center;
 }
 
 .primary {
@@ -88,14 +90,14 @@
     width: 225px;
     position: absolute;
     bottom: 0;
-    left: 35px;
+    left: 45px;
 }
 
 .flower-middle {
     width: 275px;
     position: absolute;
     top: 90px;
-    left: 25px;
+    left: 35px;
 }
 
 .flower-1,
@@ -125,7 +127,7 @@
     border-radius: 8px;
     background-color: rgba(39, 39, 39, 0.05);
     display: flex;
-    padding: 50px 100px;
+    padding: 60px 100px;
     gap: 100px;
 }
 
@@ -134,8 +136,8 @@
 }
 
 .service-icon {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
 }
 
 .service-icon-title {
@@ -177,6 +179,29 @@
     gap: 20px;
 }
 .image {
-    width: 235px;
+    width: 232px;
     height: 280px;
+}
+
+/* deal section */
+.deal {
+    background-image: url('../assets/Rectangle\ 9.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 180px 100px;
+    padding: 60px 200px;
+}
+.deal-subscribe {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.deal input[type="email"] {
+    width: 420px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    border: none;
 }
