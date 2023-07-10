@@ -115,3 +115,9 @@
 .flower-3 {
     background-color: rgba(71, 125, 17, 0.15);
 }
+
+/* service section */
+.service-container {
+    width: 80%;
+    margin: auto;
+}
