@@ -1,0 +1,37 @@
+/* common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    border: none;
+}
+
+/* banner section */
+.banner {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.banner-text-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.banner-text-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
