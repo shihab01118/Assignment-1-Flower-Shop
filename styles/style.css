@@ -211,16 +211,17 @@
     background-image: url('../assets/contact-bg 2.jpg');
     background-position: center;
     background-size: cover;
-    margin: 50px 0 100px;
+    margin-top: 50px;
     border-radius: 10px;
     display: flex;
-    padding: 60px 100px;
+    padding: 50px 150px;
     align-items: center;
     gap: 200px;
 }
 .contact-container ul {
     display: flex;
     gap: 15px;
+    justify-content: center;
 }
 .contact-container ul li {
     list-style: none;
@@ -238,7 +239,7 @@
     font-weight: 900;
 }
 .contact-text {
-    color: rgb(39, 39, 39);
+    color: #c4284a;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -253,7 +254,7 @@
 .contact-right input[type="text"], input[type="email"], textarea {
     border: none;
     border-radius: 8px;
-    padding: 20px;
+    padding: 18px;
     background-color: white;
     width: 100%;
     margin-bottom: 10px;
