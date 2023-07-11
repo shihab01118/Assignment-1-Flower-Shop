@@ -157,10 +157,12 @@
     padding: 60px 225px;
     margin-bottom: 100px;
 }
+
 .offer-left {
     max-width: 500px;
     text-align: center;
 }
+
 .offer-img {
     width: 250px;
 }
@@ -169,15 +171,18 @@
 .insta {
     margin: 0 180px 100px;
 }
+
 .insta-text {
     text-align: center;
     max-width: 485px;
     margin: auto;
 }
+
 .insta-images {
     display: flex;
     gap: 20px;
 }
+
 .image {
     width: 232px;
     height: 280px;
@@ -192,6 +197,7 @@
     margin: 0 180px 100px;
     padding: 60px 200px;
 }
+
 .deal-subscribe {
     display: flex;
     align-items: center;
@@ -218,26 +224,32 @@
     align-items: center;
     gap: 200px;
 }
+
 .contact-container ul {
     display: flex;
     gap: 15px;
     justify-content: center;
 }
+
 .contact-container ul li {
     list-style: none;
 }
+
 .contact-left {
     max-width: 600px;
     text-align: center;
 }
+
 .contact-right {
     width: 100%;
 }
+
 .contact-left-title {
     color: #272727;
     font-size: 30px;
     font-weight: 900;
 }
+
 .contact-text {
     color: #c4284a;
     font-size: 18px;
@@ -245,17 +257,50 @@
     line-height: 25px;
     margin: 20px 0 30px;
 }
+
 .contact-right-title {
     color: #272727;
     font-size: 30px;
     font-weight: 900;
     margin-bottom: 20px;
 }
-.contact-right input[type="text"], input[type="email"], textarea {
+
+.contact-right input[type="text"],
+input[type="email"],
+textarea {
     border: none;
     border-radius: 8px;
     padding: 18px;
     background-color: white;
     width: 100%;
     margin-bottom: 10px;
+}
+
+/* footer section */
+footer {
+    background: #111010;
+}
+.footer-container {
+    max-width: 550px;
+    margin: auto;
+    padding: 50px;
+}
+
+.footer-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 12px;
 }
